@@ -1,8 +1,15 @@
+import { Fragment } from "react";
+import "./home.styles.scss";
+
 const Home = () => {
     return (
-        <div>
-            <h1>Hello</h1>
-        </div>
+        <Fragment>
+            <h1>Projects</h1>
+            <div>
+                <h2>Hello tech people</h2>
+            </div>
+        </Fragment>
+        
     )
 }
 
