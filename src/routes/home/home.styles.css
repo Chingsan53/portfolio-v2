@@ -1,0 +1,47 @@
+.main-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
+  width: 98%;
+}
+
+.profile-pic {
+  width: 400px;
+}
+
+.work-pic {
+  width: 200px;
+}
+
+.works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.works-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
+  gap: 10px;
+}
+
+.work-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
